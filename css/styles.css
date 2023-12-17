@@ -402,7 +402,33 @@ body {
   align-items: center;
   justify-content: center;
   height: 112px;
+  width: 264px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+}
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.socialicon {
+  width: 40px;
+  height: 40px;
+}
+.sociallist {
+  width: 100%;
+  height: 100%;
+  background-color: var(--IRIS);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+.sociallist:hover,
+.sociallist:focus {
+  background-color: var(--OCEAN);
+}
+.icon {
+  fill: #f4f4fd;
 }
