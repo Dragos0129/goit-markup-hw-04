@@ -111,6 +111,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-inline: auto;
 }
 
 .hero-image-header {
@@ -415,6 +416,7 @@ body {
 .socialicon {
   width: 40px;
   height: 40px;
+  list-style: none;
 }
 .sociallist {
   width: 100%;
@@ -423,7 +425,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
 }
 .sociallist:hover,
 .sociallist:focus {
@@ -432,3 +434,31 @@ body {
 .icon {
   fill: #f4f4fd;
 }
+.sectioncustom {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-container {
+  display: flex;
+  gap: 24px;
+}
+.customers-list {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  list-style: none;
+}
+.customers-list-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+}
+.customers-list-link:hover,
+.customers-list-link:focus {
+  border-color: var(--OCEAN);
+}
+.customers-icon{fill: currentColor;}
