@@ -460,5 +460,6 @@ body {
 .customers-list-link:hover,
 .customers-list-link:focus {
   border-color: var(--OCEAN);
+  color: var(--OCEAN);
 }
 .customers-icon{fill: currentColor;}
