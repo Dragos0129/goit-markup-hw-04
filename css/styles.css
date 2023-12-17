@@ -516,3 +516,5 @@ body {
   align-items: baseline;
   margin-right: 120px;
 }
+.footer-logo{align-items: left;
+justify-content: left;}
